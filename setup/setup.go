@@ -2,8 +2,8 @@ package setup
 
 import (
 	"fmt"
-	"../utils/color"
-	"../utils/info"
+	"https://github.com/Licvid/hellogo/utils/color"
+	"https://github.com/Licvid/hellogo/utils/info"
 )
 
 func Run(){

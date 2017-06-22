@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"../bash"
-	"../utils/color"
+	"https://github.com/Licvid/hellogo/bash"
+	"https://github.com/Licvid/hellogo/utils/color"
 	/*
 		"github.com/docker/docker/api/types"
 		"github.com/docker/docker/api/types/container"

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"../docker"
-	"../utils/color"
+	"https://github.com/Licvid/hellogo/docker"
+	"https://github.com/Licvid/hellogo/utils/color"
 )
 
 type connector struct {

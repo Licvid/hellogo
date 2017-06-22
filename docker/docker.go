@@ -25,10 +25,12 @@ func Uninstall() {
 
 func InstallCore() {
 	var answer string
-	fmt.Print(color.BCyan("2. Install docker?(Y/N)"))
+	fmt.Print(color.BCyan("2. Install docker?(Y/N): "))
 	fmt.Scanln(&answer)
 	answer = strings.ToUpper(answer)
 	if answer == "Y" || answer == "YES" {
+		fmt.Println("May take few minutes, be patient")
+		fmt.Println("Installing...")
 		bash.Execute("sudo snap install docker")
 	}
 

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./setup"
+	"https://github.com/Licvid/hellogo/setup"
 )
 
 func main() {
